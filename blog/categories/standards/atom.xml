@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: standards | Of Cabbages and Kings]]></title>
+  <link href="http://stage.papaspyrou.name/blog/categories/standards/atom.xml" rel="self"/>
+  <link href="http://stage.papaspyrou.name/"/>
+  <updated>2014-03-03T18:08:46+01:00</updated>
+  <id>http://stage.papaspyrou.name/</id>
+  <author>
+    <name><![CDATA[Alexander Papaspyrou]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Dear Sam]]></title>
+    <link href="http://stage.papaspyrou.name/blog/2010/06/25/dear-sam/"/>
+    <updated>2010-06-25T20:22:00+02:00</updated>
+    <id>http://stage.papaspyrou.name/blog/2010/06/25/dear-sam</id>
+    <content type="html"><![CDATA[<p><img class="right" src="/images/own/dear_sam.png">
+In my <a href="/blog/2010/06/10/a-dismal-thing/">last post</a>, I referred to an email to Sam Johnston "explaining my position (and politely admitting what I stated above), hoping that this will both bury the personal issues that arose over the last week, and close a rather bland and unfruitful episode in the history of OGF efforts".</p>
+
+<p>I feel that I should share this message with you.</p>
+
+<!-- more -->
+
+
+<p>(fixing two typos on the fly):</p>
+
+<p><blockquote><p>Dear Sam,</p></p><p><p>I am not entirely sure how to start this memo (and whether it really makes sense to do so at all), but despite other peoples' opinions, I think it is time to sort a few things out after the dust of the recent OCCI / Twitter shootout between us two has settled. I don't really expect that you understand or honor my point, but still, I feel that I need to make it clear to you again.</p></p><p><p>Regardless of whether you are right or not regarding the procedure of OGF, it's IPR policies, the way how working groups are supposed to work, I think that the way you tried to (I like crystal clear wording, so please do not take this personal) defame the work done within OGF was totally inappropriate.</p></p><p><p>As said before, it's totally up to you to have your personal opinion on what's going on there, but going to Twitter and, in direct reaction to OCCI asking you to step down from the secretary position, starting to say that OCCI in particular, and OGF in general are weak, irrelevant, fail to pick up current developments, and get done work at all, was (and is) an opinion I am not willing to accept without comment.</p></p><p><p>You have to admit that letting people believe you did 60+% of the spec is not only not true, but also a direct personal insult against all the other people in group discussions at the OGF sessions (which you never attended) and on the mailing list (I remember exhaustive flamewars on several technical issues). I really appreciate your effort for OCCI, and I am totally with you if you say that you are a main contributor, but everything else is quite unfair to the rest of the community.</p></p><p><p>I am aware that my statements on Twitter were quite harsh, and probably it was similarly  inappropriate to say that you should "get over it and stop crying", I still feel that claiming to be "effectively the sole contributor to the OCCI spec" <em>is</em> not true at all (see my "damn lie" statement). Plus, calling the work done (along with the people who did it) "clusterf<em>ck" was also not one of the nicer statements you made, and a quite personal insult. It's good that cloud is what you like (and promote), but this does not mean that everything else is bullsh</em>t...</p></p><p><p>Against this background, I would like to point out my main statement---and this is what I still believe: by continuously threatening everyone in OCCI  whenever something that you wanted to push forward was not done (let aside whether I liked it or not), you put the group (and several other OGF "officials" I am noone of, BTW...) in jeopardy more than one time and made an originally good relationship with a strong trust in each other FUBAR. The fact that the group was "not submitting to your will" should have been a reason to silently and by yourself step down from your position, and leaving people alone. In the background (but remarkably, not within the OCCI group), there was a lot of noise stating the fear that you would start bashing OGF and OCCI as soon as your way would not be followed for any given reason, and you proved those voices (against which I usually backed you, BTW) right.</p></p><p><p>I was a bit surprised to read your blog entry, which publicly crucifies me not only as "some guy on Twitter", but as an OGF official (which I am not) by, let's carefully formulate, rearranging my statements in a way that is beneficial for supporting your point of view. I don't expect an apology, but in case we manage to settle our issues, I would be very happy about a clarification.</p></p><p><p>That said, I hope we can somehow manage to overcome this unsavory battle, settle our personal issues, and (again) act as gentlemen with each other. And to make this clear as well: I don't expect an apology from you, but---granted that I believe we can get along again---it would be great if you could clarify your blog post. And since I am at it: maybe I can even convince you to stop blogging / twittering / *ing doubleplusungood about OGF and OCCI.</p></p><p><p>Hope to hear from you.</p></p><p><p>Regards,<br/>Alexander</p></blockquote></p>
+
+<p>Any opinions on this are more than welcome.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A Dismal Thing]]></title>
+    <link href="http://stage.papaspyrou.name/blog/2010/06/10/a-dismal-thing/"/>
+    <updated>2010-06-10T19:54:00+02:00</updated>
+    <id>http://stage.papaspyrou.name/blog/2010/06/10/a-dismal-thing</id>
+    <content type="html"><![CDATA[<p>It has been a while since I started to consider whether I should have a blog or not. While I was never really against it, and always thought it would be cool, I never had the feeling that my first post would be sufficiently substantial, interesting, or important to let the general public know.</p>
+
+<p><img class="left" src="/images/own/dismal_slide.png" width="500"></p>
+
+<p>Yesterday, I brought myself to dispel all doubts.</p>
+
+<!-- more -->
+
+
+<p>As most people around me will know, there has been a debate in the context of the <a href="http://www.ogf.org">Open Grid Forum</a> on a quite cool and currently very popular proposed standard for Cloud Computing (IaaS in particular), called <a href="http://occi-wg.org">OCCI</a>. I shall spare you with details (which you'd better lookup at the <a href="http://www.ogf.org/pipermail/occi-wg/">mailinglist</a>), but the whole story boils down to a disagreement between the working group's secretary, Sam Johnston, and the rest of the group on the <a href="http://www.ogf.org/merger_docs/OGFIPRPolicy.pdf">IPR policy</a> under which OCCI would be published: while Sam strived for <a href="http://creativecommons.org">Creative Commons</a>-style licensing, the others wanted to stay with the current, OGF-style, licensing.</p>
+
+<p>After <a href="http://www.ogf.org/pipermail/occi-wg/2010-February/001625.html">extensive</a> <a href="http://www.ogf.org/pipermail/occi-wg/2010-March/001691.html">discussion</a> on the mailinglist, it became clear that there is a fundamental disagreement between Sam as the secretary on one side, and the <a href="http://www.ogf.org/gf/group_info/view.php?group=occi-wg">chairs</a>, the <a href="http://www.ogf.org/About/abt_board.php">Board of Directors</a>, and many other active contributors around OCCI on the other. Moreover, all attempts to settle this via other channels (telcons, private email, you-name-it) deliberately failed. Careful consideration of all assets and drawbacks led to the decision of the group to ask Sam to step down from his position, mainly because his unwilling to compromise on the issue.</p>
+
+<p>The result of this decision was rather unpleasant: Sam decided to <a href="https://twitter.com/samj">tweet out</a> his enragement not only by expressing his disgust with OGF, but also by personally attacking chair and active leader of the group <a href="http://lxnet.org">Thijs Metsch</a>, who I am befriend with. My <a href="https://twitter.com/lxndrp">replies</a> on Twitter were not exactly gentleman-like and overshot the mark (resulting in being blocked by Sam), but expressed my anger about the way things went. A <a href="http://samj.net/2010/06/how-i-tried-to-keep-occi-alive-and.html">followup blog entry</a> and the ongoing Twitter crusade by Sam shed more bitterness, and <a href="http://twitter.com/swardley">different</a> <a href="http://blogs.techworld.com/the-virtual-enterprise/2010/06/stormy-cloud/">people</a> (with diverging opinions) have been commenting on the topic.</p>
+
+<p>On the whole, I have the impression that this whole Sam-not-OCCI-secretary-anymore debate is an ephemeral, and should be treated as such: Meanwhile, OCCI work has been ongoing, and the specification is going to be pushed out within a few days -- another fact that indicates an overheated, overrated debate, the effort that was (and still is) put into (including my own) would have been better yielded in more interesting, more important issues such as the <a href="http://www.ogf.org/pipermail/occi-wg/2010-June/001878.html">HTML5/RDFa rendering</a>.</p>
+
+<p>I sent Sam an email explaining my position (and politely admitting what I just said here), hoping that this will both bury the personal issues that arose over the last week, and close a rather bland and unfruitful episode in the history of OGF efforts.</p>
+
+<p>Although I always thought that the first blog entry one makes should be something cheerful and nice, this rather unpleasant post makes me feel better a bit and allows me to conclude a bumpy week by writing my thoughts down in a publicly accessible way. What remains is a lingering aftertaste and the strange feeling of having done the right thing, but still feeling somewhat uncomfortable.</p>
+]]></content>
+  </entry>
+  
+</feed>

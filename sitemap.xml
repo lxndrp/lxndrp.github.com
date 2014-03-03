@@ -1,15 +1,39 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://lxndrp.github.com/blog/archives/</loc>
-        <lastmod>2013-03-02T13:13:48+01:00</lastmod>
+        <loc>http://stage.papaspyrou.name/blog/2010/06/10/a-dismal-thing/</loc>
+        <lastmod>2013-03-02T16:06:55+01:00</lastmod>
     </url>
     <url>
-        <loc>http://lxndrp.github.com/</loc>
-        <lastmod>2013-03-02T13:13:48+01:00</lastmod>
+        <loc>http://stage.papaspyrou.name/blog/2010/06/25/dear-sam/</loc>
+        <lastmod>2013-03-02T16:06:55+01:00</lastmod>
     </url>
     <url>
-        <loc>http://lxndrp.github.com/robots.txt</loc>
-        <lastmod>2013-03-02T13:13:48+01:00</lastmod>
+        <loc>http://stage.papaspyrou.name/blog/2011/12/13/in-the-boot-camp/</loc>
+        <lastmod>2013-03-02T16:23:36+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://stage.papaspyrou.name/blog/2011/12/20/cloudy/</loc>
+        <lastmod>2013-03-02T16:42:14+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://stage.papaspyrou.name/blog/2011/12/22/superdrive-doesnt/</loc>
+        <lastmod>2013-03-02T16:10:35+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://stage.papaspyrou.name/blog/2012/01/18/stop-online-piracy-act/</loc>
+        <lastmod>2013-03-02T16:40:26+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://stage.papaspyrou.name/blog/archives/</loc>
+        <lastmod>2013-03-02T16:42:14+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://stage.papaspyrou.name/</loc>
+        <lastmod>2013-03-02T16:42:14+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://stage.papaspyrou.name/robots.txt</loc>
+        <lastmod>2013-03-02T16:06:55+01:00</lastmod>
     </url>
 </urlset>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: science, | Of Cabbages and Kings]]></title>
+  <link href="http://stage.papaspyrou.name/blog/categories/science-/atom.xml" rel="self"/>
+  <link href="http://stage.papaspyrou.name/"/>
+  <updated>2014-03-03T18:08:46+01:00</updated>
+  <id>http://stage.papaspyrou.name/</id>
+  <author>
+    <name><![CDATA[Alexander Papaspyrou]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Cloudy, with no chance for meat]]></title>
+    <link href="http://stage.papaspyrou.name/blog/2011/12/20/cloudy/"/>
+    <updated>2011-12-20T09:57:00+01:00</updated>
+    <id>http://stage.papaspyrou.name/blog/2011/12/20/cloudy</id>
+    <content type="html"><![CDATA[<p><img class="left" src="/images/own/meat_skewers.png" width="300">
+In my day job as a researcher, from time to time I happen to publish a paper at some scientific conference. <del>This</del>Last week, I was at the <a href="http://www.swinflow.org/confs/cgc2011/">2011 IEEE Cloud and Green Computing conference</a> in Sydney, Australia — but Clouds were yet to be seen.</p>
+
+<!-- more -->
+
+
+<p>My main reason for going there was to present on a RESTful rendering of the <a href="http://www.ogf.org/documents/GFD.107.pdf">WS-Agreement protocol</a> and document format. The work was mainly done by a student of mine, who developed it as part of his master thesis, and <a href="http://www.linkedin.com/in/thijsmetsch">Thijs Metsch</a> helped with the linking to <a href="http://occi-wg.org">OCCI</a> and shared some ideas on improving one thing or the other in the original protocol. If you are interested in this work, <del>drop me a message and I'll send you a preprint or wait for</del> <a href="http://dx.doi.org/10.1109/DASC.2011.116">grab the final publication on IEEExplore</a>.</p>
+
+<p>The rest of the conference, unfortunately, was not worth traveling <a href="http://www.milecalc.com/mileage-calculator/?city1=FRA&amp;city2=SIN&amp;city3=SYD&amp;city4=&amp;city5=">20,596 miles</a> from Germany to Australia, staying a work week away from the office, and – much to the woes of my family – essentially sacrificing two full weekends just before christmas for flying in and out.</p>
+
+<p>While the scientific talks were very mixed quality and mostly an <a href="http://www.andersen.sdu.dk/vaerk/hersholt/TheEmperorsNewClothes_e.html">emperor's new clothes</a> thing for old HPC stuff (you might want to take a look at the proceedings), the most disappointing part were the <a href="http://www.swinflow.org/confs/cgc2011/key.htm">keynotes</a> and the panel discussion.</p>
+
+<p>One was by Ivan Stojmenovic, University of Ottawa. Ivan is well known to the Distributed Systems research community as the editor-in-chief for what probably is the most prestigious journal in this area, the <a href="http://www.computer.org/portal/web/tpds">IEEE Transactions on Parallel and Distributed Systems</a>. I was very much looking forward to his speech titled "Green Computing in Mobile Cloud", which was announced as a talk on general issues regarding green system design and the challenges in that context. It then turned out to be a discussion on reuse of already available and otherwise unused resources (those of you around for more than a decade might remember cycle scavenging to be en vogue), and the application thereof in a vision Ivan sketched out under the name of “Vehicular Clouds”. As far as I understood, the general idea is to do intelligent traffic management using the car's onboard computing capabilities — awkward at best, but hey, we are researchers. What really made me roll my eyes was the business model behind: the incentive for people sharing their car computing power while at the parking lot in the mall was coupons for the shops. Now why I should sacrifice battery power for traffic routing computation when my car won't start after returning from shopping is beyond me, whether having coupons or not.</p>
+
+<p>Another one was by David Abramson, Monash University. David gained some fame with the <a href="http://messagelab.monash.edu.au/Nimrod">Nimrod</a> family of tools for HPC and Grid Computing in the late nineties, a framework for doing scientific computing on the then rather hard to use resources. I had listened to David's keynotes one time or the other already, and it was what I expected: advertisement for Nimrod, which his team is still driving forward. The only cloudy thing about it was, as <a href="http://twitter.com/#!/ptroeger/status/146067172723134465">Peter Tröger nicely bottom-lined</a>, that now an actuator (essentially an adapter to a resource) implementation for OCCI is available. So I was again disappointed, but at least not surprised.</p>
+
+<p>Then there was Geoffrey Fox, Indiana University. Geoffrey was one of the masterminds behind the <a href="https://portal.futuregrid.org/">FutureGrid</a> project, a by itself extremely useful testbed for next-generation Grid computing technologies, which is now starting to look at Cloud technology as well. Geoffrey's talk was on “Sensor Nets and their Analysis on the Cloud”. I would have liked the talk, if it was on the challenges of large-scale distributed systems (which sensor network are; just consider a medium sized skyscraper and it's inhouse monitoring), but instead it featured statements like</p>
+
+<p><blockquote><p>"Grids introduced important concepts such as services."</p></blockquote>
+and
+<blockquote><p>"Most sensors are pretty small."</p></blockquote>
+Insightful, and well worth traveling around the globe.</p>
+
+<p>Finally, there was <a href="http://www.dr-bhavani.org/">Bhavani Thuraisingham</a>, University of Texas at Dallas. Bhavani has a record of work in the area of security and information assurance, but given that this is not my area of research I did not know her. She spoke about “Cloud-centric Assured Information Sharing”, and I was delighted to get updated on a high level about what is going on in the Cloud research arena. Bhavani's talk however turned out to be a <em>tour de force</em> through her <a href="http://www.utdallas.edu/~bxt043000/Research/ext-funded-research.html">latest research grants</a>. Being in this business as well, I really appreciate her effort in fundraising and honor her success in doing so, but it is beyond me why this would be worth a keynote. I hope that the other "90 keynote presentations" <a href="http://www.utdallas.edu/~bxt043000/Bhavani-Vitae-October28-2010.pdf">she lists in her CV</a> (see pp. 65) were more interesting. Next time,  I might well just read the two-page abstract in the conference program and skip the one hour talk.</p>
+
+<p>From the three other keynotes, only <a href="http://www.ecu.edu.au/schools/management/about/staff/profiles/professors/professor-craig-standing">Craig Standing</a> from Edith Cowan University left a trace in my memories, who talked about “Social Computing, ICT Developments, and Innovation”. The cloudiness of the talk was again limited, but at least he was a decent speaker talking about something I haven't heard before at a scientific conference.</p>
+
+<p>What baffled me most about the keynotes is that, obviously, someone must have hand-selected and invited the speakers. It is not like a paper track where the Program Committee might decide to let things get through the reviews you as the conference chair might not like. On the contrary — it is totally in the hands of the organisers. Therefore, the responsibility for selecting keynote speakers is higher than the one for essentially editing the scientific results.</p>
+
+<p>As a protip for the next year's organisers: invite people who have something to say about Cloud Computing, and not the folks trying to keep their stuff alive until retirement. And since you are at it, make sure that you invite speakers, not presenters.</p>
+]]></content>
+  </entry>
+  
+</feed>

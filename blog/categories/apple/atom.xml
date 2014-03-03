@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: apple | Of Cabbages and Kings]]></title>
+  <link href="http://stage.papaspyrou.name/blog/categories/apple/atom.xml" rel="self"/>
+  <link href="http://stage.papaspyrou.name/"/>
+  <updated>2014-03-03T18:08:46+01:00</updated>
+  <id>http://stage.papaspyrou.name/</id>
+  <author>
+    <name><![CDATA[Alexander Papaspyrou]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[SuperDrive doesn't]]></title>
+    <link href="http://stage.papaspyrou.name/blog/2011/12/22/superdrive-doesnt/"/>
+    <updated>2011-12-22T05:12:00+01:00</updated>
+    <id>http://stage.papaspyrou.name/blog/2011/12/22/superdrive-doesnt</id>
+    <content type="html"><![CDATA[<p>Sometimes, things come back very quickly.</p>
+
+<p><img class="left" src="/images/own/super_drive.png" width="300">
+In my last post, I essentially <a href="/blog/2011/12/13/in-the-boot-camp/">told the tale</a> how I came to buying an optical drive for my laptop. Today, I will tell the tale why I got rid of it again.</p>
+
+<!-- more -->
+
+
+<p>Overall, the MacBook Air SuperDrive is a <a href="http://reviews.cnet.com/dvd-drives/apple-macbook-air-superdrive/4505-3212_7-32823484.html">very decent optical drive</a>. It reads and writes <a href="http://store.apple.com/us/product/MC684ZM/A#overview">all kinds of media</a>, is small (about the size of a jewel case) and light (about two apples, <a href="http://xkcd.com/559/">no pun intended</a>), and – as most Apple products – looks and feels gorgeous.</p>
+
+<p>I was quite happy with it, but given that the only purpose of it was installing Windows 7, I thought it might be a bit of a waste letting it rot away in some desk drawer. Since I have an iMac as well (as a home computer and <a href="http://www.elgato.com/elgato/int/mainmenu/products/software/EyeConnect.html">media hub</a>), I came up with an idea how to recycle the SuperDrive in a beneficial fashion.</p>
+
+<p>My plan was the following:</p>
+
+<ol>
+<li>Replace the internal optical drive of the iMac with an SSD.</li>
+<li>Attach the MacBook Air SuperDrive via USB, when necessary.</li>
+</ol>
+
+
+<p>This seemed to be a good compromise to me: it would speed up working on the desktop computer, the (seldomly used) optical drive could be plugged in on demand, and some poor Mac user with a broken optical drive would probably pay a few quid for the old drive on eBay.</p>
+
+<p>You might have noticed a certain order in the above list. Luckily, my year-long experience in IT combined with some healthy scepticism told me to start with step 2, and not with step 1.
+It turns out that this was a very good idea. The MacBook Air SuperDrive fulfils all marketing promises the name lets you assume: it works on the MacBook Air. And the latest Mac mini. And – drumroll – <a href="https://discussions.apple.com/thread/2627903?start=0&amp;tstart=0">nowhere else</a>.</p>
+
+<p>A quick search on Google yields various explanations for this, the reasoning behind <a href="http://forums.macrumors.com/showthread.php?t=420281">greatly varies</a>, and is usually wrong – no special cable required, no quirky power problems. The drive is just a regular ATAPI-compatible and as such, should work fine on every (even not so) modern system.
+If you dig deeper, you find that it doesn't work because Apple <a href="http://www.engadget.com/2008/01/24/confirmed-macbook-air-superdrive-does-not-work-with-other-machi/">made it so</a>. In fact, some guy at Infinite Loop, Cupertino (CA) thought it would be a brilliant idea to replace the IDE-to-USB bridge, a <del>$9</del> $8 <a href="http://www.centrix-intl.com/details.asp?productid=3022">piece of hardware</a>, by some kludge that does nothing more but a handshake with the computer to ensure being useless in most cases. A screwdriver and the aforementioned replacement part, along with a <a href="http://tnkgrl.wordpress.com/2008/06/24/macbook-air-superdrive-for-all/">very decent explanation by some smart person</a>, allows you to fix the problem.</p>
+
+<p>I, however, grew too old already for wasting my time with fixing a product I spent a lot of money for and, although subversive tendencies brought me quite close to doing so, finally decided not to follow the procedure.</p>
+
+<p>Rather than that, I made use of a <a href="http://www.gesetze-im-internet.de/englisch_bgb/englisch_bgb.html#p1025">German law regarding so-called "doorstep transactions"</a> (which also covers online retail), which essentially says that you are allowed to order stuff, try it out for 14 days, and – if you don't like it – send it back without giving a reason. The retailer (in this case amazon.de) is required to fully refund you, including shipping cost for the return.</p>
+
+<p>So now I have Windows installed, for free, although I would have paid for it. But if you, Apple, really don't want my money, then fine: I'll find something else to spend it for.</p>
+
+<p>And sorry, Amazon, for wasting your money because of this.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[In the Boot Camp]]></title>
+    <link href="http://stage.papaspyrou.name/blog/2011/12/13/in-the-boot-camp/"/>
+    <updated>2011-12-13T04:35:00+01:00</updated>
+    <id>http://stage.papaspyrou.name/blog/2011/12/13/in-the-boot-camp</id>
+    <content type="html"><![CDATA[<p>Today, I confess: I am a Mac user.</p>
+
+<p><img class="left" src="/images/own/boot_camp.png" width="400"></p>
+
+<p>These days, it seems that the pendulum of Apple product and service love is swinging slightly more towards the negative side, at least in the community I work in. Partly, this has to do with the never-ending discussion on <a href="http://www.gnu.org/philosophy/free-sw.html">freedom and beer</a>, which seems to be affecting mainly scientists for some nebulous reason—but I digress. Since yesterday, I have to admit they might have a point.</p>
+
+<!-- more -->
+
+
+<p>I wouldn't consider myself being an Apple <a href="http://www.bbc.co.uk/news/business-13416598">Fanboi</a>, but have to admit that, over time, I locked myself into the Jobs prison, and so far, it was a pretty productive experience: The long and arcane enchantments for *NIX that I once had to commit to long-term memory in order to do things that, from today's perspective, were not all that impressive, slowly dim away, and in the closed, non-free (neither as in freedom nor as in beer) universe I live in since 2005, things tend to just work.
+Of course, each paradise shows cracks if you poke things long enough, and it turns out that my <a href="http://kb.iu.edu/data/abeh.html">rite of passage</a> realising this for the fruity universe was <a href="http://www.apple.com/support/bootcamp/">installing Windows</a>.</p>
+
+<p>Normally, the process of doing this is rather simple. Mac OS X provides a tool, called <em>Boot Camp</em>, which takes your Windows installation media, and more or less without any user interaction, repartitions the disk and prepares everything for rebooting into the well known Windows setup process.</p>
+
+<p>Now I own a very nice MacBook Air (<a href="http://www.engadget.com/2010/10/26/macbook-air-review-late-2010/">late 2010 model</a>), which I use as my main computer. The CPU is fast enough for whatever I do (for everything else, I have a bigger machine), it has a very decent SSD, and–most importantly–lacks an optical drive. And here is where my Boot Camp began.</p>
+
+<p>For some reason that's better left to imagination, Boot Camp requires to insert a DVD into your computer to be able to run the installation. Technically, there is absolutely no reason for this: Windows <a href="http://www.microsoftstore.com/store/msstore/html/pbPage.Help_Win7_usbdvd_dwnTool">provides tools</a> for installing from USB flash drives, the Mac <a href="http://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface#Operating_systems">uses EFI for ages</a> to manage its boot process, and booting from USB is working perfectly well in this setting. Or I thought so.</p>
+
+<p>It turns out that it is impossible to convince my computer of doing an USB installation of Windows 7. Although I didn't try, I am pretty sure that Vista, XP, and 2000 fail accordingly. A search on the net yields <a href="http://howto.cnet.com/8301-11310_39-20020513-285/install-win-7-on-macbook-air-from-a-usb-drive/">several</a> <a href="http://www.tech-recipes.com/rx/9136/macbook-air-install-windows-7-with-boot-camp-without-an-external-dvd-drive/">tutorials</a> how to do this by using additional software (namely, the very decent open source EFI implementation called "<a href="http://refit.sourceforge.net">rEFIt</a>"), but none worked for me. I fiddled around a while, looking at the EFI specs, had some interesting discussions with my Mac in what is usually known as single user boot (yes, <a href="http://osxbook.com/book/bonus/ancient/whatismacosx/arch_boot.html">that's possible</a>), and eventually gave up.</p>
+
+<p>The canonical solution to the problem, though, is rather simple: a call to Apple support enlightened me in that I should buy a <a href="http://www.amazon.com/Apple-Macbook-Air-SuperDrive-MB397G/dp/B000WHZ0NS">highly overpriced MacBook Air SuperDrive</a>, which I finally did. And trust me: the pain from the stab your computer scientist/engineer ego gets eventually fades away, just like the invocation semantics for <code>awk</code> and `sed did.</p>
+]]></content>
+  </entry>
+  
+</feed>
