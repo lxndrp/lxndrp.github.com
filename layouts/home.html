@@ -1,0 +1,27 @@
+{{ define "main" }}
+<section class="hero">
+  {{ .Content }}
+</section>
+
+{{ $approvedArticles := where (where site.RegularPages "Section" "articles") "Params.approvalStatus" "approved" }}
+{{ $approvedArticles = where $approvedArticles "Params.status" "approved" }}
+{{ with first 3 $approvedArticles }}
+<section>
+  <h2>Aktuelle Artikel</h2>
+  <div class="cards">
+    {{ range . }}<article><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3><p>{{ .Description }}</p></article>{{ end }}
+  </div>
+</section>
+{{ end }}
+
+{{ $approvedTalks := where (where site.RegularPages "Section" "talks") "Params.approvalStatus" "approved" }}
+{{ $approvedTalks = where $approvedTalks "Params.status" "approved" }}
+{{ with first 3 $approvedTalks }}
+<section>
+  <h2>Vorträge</h2>
+  <div class="cards">
+    {{ range . }}<article><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3><p>{{ .Description }}</p></article>{{ end }}
+  </div>
+</section>
+{{ end }}
+{{ end }}
