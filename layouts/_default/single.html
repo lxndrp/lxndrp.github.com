@@ -1,0 +1,11 @@
+{{ define "main" }}
+<article class="publication">
+  <header>
+    <p class="eyebrow">{{ with .Section }}{{ . | humanize }}{{ end }}</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="lead">{{ . }}</p>{{ end }}
+    {{ with .Date }}<time datetime="{{ .Format "2006-01-02" }}">{{ .Format "02.01.2006" }}</time>{{ end }}
+  </header>
+  <div class="content">{{ .Content }}</div>
+</article>
+{{ end }}

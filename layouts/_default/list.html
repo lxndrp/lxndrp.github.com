@@ -1,0 +1,16 @@
+{{ define "main" }}
+<header class="page-header"><h1>{{ .Title }}</h1>{{ .Content }}</header>
+{{ $pages := where .RegularPages "Params.approvalStatus" "approved" }}
+{{ $pages = where $pages "Params.status" "approved" }}
+<div class="cards">
+  {{ range $pages.ByDate.Reverse }}
+  <article>
+    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    {{ with .Description }}<p>{{ . }}</p>{{ end }}
+    {{ with .Date }}<time datetime="{{ .Format "2006-01-02" }}">{{ .Format "02.01.2006" }}</time>{{ end }}
+  </article>
+  {{ else }}
+  <p>Noch keine freigegebenen Veröffentlichungen.</p>
+  {{ end }}
+</div>
+{{ end }}

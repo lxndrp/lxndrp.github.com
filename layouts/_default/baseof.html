@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="{{ site.Language.LanguageCode }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ .Description | default site.Params.description }}">
+  <link rel="stylesheet" href="{{ "css/site.css" | relURL }}">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="{{ site.Home.RelPermalink }}">Alexander Papaspyrou</a>
+    <nav aria-label="Hauptnavigation">
+      {{ range site.Menus.main }}<a href="{{ .URL }}">{{ .Name }}</a>{{ end }}
+    </nav>
+  </header>
+  <main>{{ block "main" . }}{{ end }}</main>
+  <footer>
+    <p>Persönliche fachliche Perspektiven zu öffentlicher IT und digitaler Transformation.</p>
+  </footer>
+</body>
+</html>
