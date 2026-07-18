@@ -11,7 +11,7 @@ tags:
 params:
   editorialId: ART-2026-TEST-001
   objectType: article
-  status: review
+  status: approved
   sourceTopics: []
   sourcePublications: []
   knowledgeRefs: []
@@ -21,7 +21,7 @@ params:
   reviewRequired: true
   reviewLevel: low
   communicationRisk: low
-  approvalStatus: pending
+  approvalStatus: approved
   canonicalUrl:
 ---
 
@@ -29,4 +29,4 @@ params:
 
 Dieser Platzhalter enthält keine fachlichen oder internen Informationen. Er dient ausschließlich dazu, den technischen Veröffentlichungsweg zu prüfen.
 
-Der Negativtest muss den Build ablehnen, weil der Inhalt zwar nicht mehr als Entwurf markiert ist, aber noch nicht vollständig freigegeben wurde.
+Der Positivtest muss erfolgreich bauen, weil der Artikel ausdrücklich freigegeben ist. Nach dem kontrollierten Veröffentlichungstest wird der Platzhalter wieder entfernt.
