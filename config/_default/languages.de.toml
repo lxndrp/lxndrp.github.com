@@ -1,0 +1,16 @@
+languageCode = "de"
+languageName = "Deutsch"
+weight = 1
+title = "Alexander Papaspyrou"
+
+[params]
+  displayName = "DE"
+  isoCode = "de"
+  rtl = false
+  dateFormat = "2. Januar 2006"
+  description = "Leistungsfähige öffentliche IT, Technologie mit konkreter Wirkung und verantwortliche digitale Transformation."
+
+[params.author]
+  name = "Alexander Papaspyrou"
+  headline = "Öffentliche IT, Technologie mit konkreter Wirkung und verantwortliche digitale Transformation."
+  bio = "Persönliche fachliche Perspektiven eines CIO im Umfeld der öffentlichen Verwaltung."
