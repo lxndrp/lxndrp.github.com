@@ -1,0 +1,43 @@
+colorScheme = "congo"
+defaultAppearance = "light"
+autoSwitchAppearance = false
+enableSearch = true
+enableCodeCopy = false
+mainSections = ["articles", "talks"]
+robots = "noindex, nofollow"
+
+[header]
+  layout = "basic"
+
+[footer]
+  showCopyright = true
+  showThemeAttribution = true
+  showAppearanceSwitcher = false
+  showScrollToTop = true
+
+[homepage]
+  layout = "profile"
+  showRecent = true
+  recentLimit = 6
+
+[article]
+  showDate = true
+  showDateUpdated = false
+  showAuthor = false
+  showBreadcrumbs = true
+  showDraftLabel = true
+  showEdit = false
+  showHeadingAnchors = true
+  showPagination = true
+  showReadingTime = true
+  showTableOfContents = false
+  showTaxonomies = true
+
+[list]
+  showBreadcrumbs = true
+  showSummary = true
+  showTableOfContents = false
+  groupByYear = false
+
+[sitemap]
+  excludedKinds = ["taxonomy", "term"]
