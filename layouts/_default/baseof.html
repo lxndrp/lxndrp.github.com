@@ -5,18 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
   <meta name="description" content="{{ .Description | default site.Params.description }}">
+  <meta name="theme-color" content="#fbfaf7">
   <link rel="stylesheet" href="{{ "css/site.css" | relURL }}">
+  {{ with .OutputFormats.Get "rss" }}<link rel="alternate" type="application/rss+xml" title="{{ site.Title }}" href="{{ .RelPermalink }}">{{ end }}
 </head>
 <body>
+  <a class="skip-link" href="#content">Zum Inhalt springen</a>
   <header class="site-header">
     <a class="brand" href="{{ site.Home.RelPermalink }}">Alexander Papaspyrou</a>
     <nav aria-label="Hauptnavigation">
       {{ range site.Menus.main }}<a href="{{ .URL }}">{{ .Name }}</a>{{ end }}
     </nav>
   </header>
-  <main>{{ block "main" . }}{{ end }}</main>
+  <main id="content">{{ block "main" . }}{{ end }}</main>
   <footer>
-    <p>Persönliche fachliche Perspektiven zu öffentlicher IT und digitaler Transformation.</p>
+    <p class="footer-note">Persönliche fachliche Perspektiven zu leistungsfähiger öffentlicher IT, Technologie mit konkreter Wirkung und verantwortlicher digitaler Transformation. Keine offizielle Stellungnahme der BundesImmobilien oder des Bundes.</p>
+    <p><a href="{{ relURL "/index.xml" }}">RSS</a></p>
   </footer>
 </body>
 </html>
