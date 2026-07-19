@@ -3,13 +3,42 @@
   {{ .Content }}
 </section>
 
+<section aria-labelledby="themes-heading">
+  <div class="section-heading">
+    <h2 id="themes-heading">Thematische Perspektiven</h2>
+  </div>
+  <div class="topic-grid">
+    <article class="topic">
+      <h3>Leistungsfähige öffentliche IT</h3>
+      <p>Infrastrukturen, Plattformen und Services, auf die sich eine handlungsfähige Verwaltung verlassen kann.</p>
+    </article>
+    <article class="topic">
+      <h3>Technologie mit Wirkung</h3>
+      <p>Digitale Lösungen, die Immobilienmanagement, staatliche Aufgaben und konkrete Entscheidungen verbessern.</p>
+    </article>
+    <article class="topic">
+      <h3>Führung und Transformation</h3>
+      <p>Verantwortung, Organisation und Kultur als Voraussetzungen dafür, dass Technologie tatsächlich wirkt.</p>
+    </article>
+  </div>
+</section>
+
 {{ $approvedArticles := where (where site.RegularPages "Section" "articles") "Params.approvalStatus" "approved" }}
 {{ $approvedArticles = where $approvedArticles "Params.status" "approved" }}
 {{ with first 3 $approvedArticles }}
-<section>
-  <h2>Aktuelle Artikel</h2>
+<section aria-labelledby="articles-heading">
+  <div class="section-heading">
+    <h2 id="articles-heading">Aktuelle Artikel</h2>
+    <a href="{{ relURL "/articles/" }}">Alle Artikel</a>
+  </div>
   <div class="cards">
-    {{ range . }}<article><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3><p>{{ .Description }}</p></article>{{ end }}
+    {{ range . }}
+    <article>
+      <div class="card-meta">Artikel{{ with .Date }} · {{ .Format "02.01.2006" }}{{ end }}</div>
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      <p>{{ .Description }}</p>
+    </article>
+    {{ end }}
   </div>
 </section>
 {{ end }}
@@ -17,10 +46,19 @@
 {{ $approvedTalks := where (where site.RegularPages "Section" "talks") "Params.approvalStatus" "approved" }}
 {{ $approvedTalks = where $approvedTalks "Params.status" "approved" }}
 {{ with first 3 $approvedTalks }}
-<section>
-  <h2>Vorträge</h2>
+<section aria-labelledby="talks-heading">
+  <div class="section-heading">
+    <h2 id="talks-heading">Vorträge und Impulse</h2>
+    <a href="{{ relURL "/talks/" }}">Alle Vorträge</a>
+  </div>
   <div class="cards">
-    {{ range . }}<article><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3><p>{{ .Description }}</p></article>{{ end }}
+    {{ range . }}
+    <article>
+      <div class="card-meta">Vortrag{{ with .Date }} · {{ .Format "02.01.2006" }}{{ end }}</div>
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      <p>{{ .Description }}</p>
+    </article>
+    {{ end }}
   </div>
 </section>
 {{ end }}
