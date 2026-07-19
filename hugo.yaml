@@ -1,12 +1,13 @@
 baseURL: "https://stage.papaspyrou.name/"
-languageCode: "de-de"
+languageCode: "de"
+defaultContentLanguage: "de"
 title: "Alexander Papaspyrou"
 timeZone: "Europe/Berlin"
 enableRobotsTXT: true
+layoutDir: "congo-layouts"
 
 params:
   description: "Leistungsfähige öffentliche IT, Technologie mit konkreter Wirkung und verantwortliche digitale Transformation."
-  author: "Alexander Papaspyrou"
 
 menus:
   main:
@@ -22,6 +23,10 @@ menus:
     - name: "Über mich"
       pageRef: "/about"
       weight: 40
+  footer:
+    - name: "RSS"
+      url: "/index.xml"
+      weight: 10
 
 markup:
   goldmark:
