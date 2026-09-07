@@ -1,0 +1,29 @@
+{{ with .Site.GetPage "/projects" }}
+  {{ $projects := .RegularPages }}
+  {{ if gt (len $projects) 0 }}
+    <section class="mt-12 w-full" aria-labelledby="projects-heading">
+      <h2 id="projects-heading" class="text-2xl font-extrabold">{{ .Title }}</h2>
+      {{ with .Content }}
+        <div class="prose dark:prose-invert mt-3">{{ . }}</div>
+      {{ end }}
+      <div class="mt-6 grid gap-4 md:grid-cols-2">
+        {{ range $projects }}
+          {{ $destination := .RelPermalink }}
+          {{ with .Params.externalUrl }}
+            {{ $destination = . }}
+          {{ end }}
+          <article class="rounded-lg border border-neutral-300/80 bg-white/60 p-6 dark:border-neutral-600/80 dark:bg-neutral-900/50">
+            <h3 class="text-xl font-semibold">
+              <a class="bf-icon-color-hover" href="{{ $destination }}"{{ with .Params.externalUrl }} target="_blank" rel="noopener"{{ end }}>
+                {{ .Title }}{{ with .Params.externalUrl }} <span aria-hidden="true">↗</span>{{ end }}
+              </a>
+            </h3>
+            {{ with .Description }}
+              <p class="mt-2 text-neutral-600 dark:text-neutral-400">{{ . }}</p>
+            {{ end }}
+          </article>
+        {{ end }}
+      </div>
+    </section>
+  {{ end }}
+{{ end }}
