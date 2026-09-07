@@ -3,7 +3,7 @@ title: "Alexander Papaspyrou"
 description: "Leistungsfähige öffentliche IT, Technologie mit konkreter Wirkung und verantwortliche digitale Transformation."
 ---
 
-# Öffentliche IT muss Wirkung erzeugen
+## Öffentliche IT muss Wirkung erzeugen
 
 Ich beschäftige mich mit der Frage, wie öffentliche IT technologisch leistungsfähig, souverän und organisatorisch verantwortlich gestaltet werden kann.
 

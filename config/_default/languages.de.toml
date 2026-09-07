@@ -1,0 +1,15 @@
+locale = "de"
+label = "Deutsch"
+weight = 1
+title = "Alexander Papaspyrou"
+
+[params]
+  displayName = "DE"
+  isoCode = "de-DE"
+  description = "Leistungsfähige öffentliche IT, Technologie mit konkreter Wirkung und verantwortliche digitale Transformation."
+  robots = "noindex, nofollow"
+
+[params.author]
+  name = "Alexander Papaspyrou"
+  headline = "Öffentliche IT, digitale Souveränität und Transformation mit Wirkung."
+  bio = "Persönliche fachliche Perspektiven eines CIO im Umfeld der öffentlichen Verwaltung."

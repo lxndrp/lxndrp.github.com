@@ -1,5 +1,5 @@
 baseURL: "https://stage.papaspyrou.name/"
-languageCode: "de-de"
+defaultContentLanguage: "de"
 title: "Alexander Papaspyrou"
 timeZone: "Europe/Berlin"
 enableRobotsTXT: true
@@ -19,9 +19,12 @@ menus:
     - name: "Vorträge"
       pageRef: "/talks"
       weight: 30
+    - name: "Projekte"
+      pageRef: "/projects"
+      weight: 40
     - name: "Über mich"
       pageRef: "/about"
-      weight: 40
+      weight: 50
 
 markup:
   goldmark:
@@ -32,3 +35,4 @@ outputs:
   home:
     - HTML
     - RSS
+    - JSON
