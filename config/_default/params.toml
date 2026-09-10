@@ -16,7 +16,7 @@ mainSections = ["articles", "thoughts", "talks"]
 
 [homepage]
   layout = "profile"
-  showRecent = true
+  showRecent = false
   showRecentItems = 6
   showMoreLink = true
   showMoreLinkDest = "/articles"
