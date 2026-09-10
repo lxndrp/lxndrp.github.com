@@ -13,6 +13,9 @@ tags:
   - okr
   - business-it-alignment
   - oeffentliche-it
+params:
+  status: approved
+  approvalStatus: approved
 ---
 
 Zwei sehr unterschiedliche Verwaltungsorganisationen, zwei unterschiedliche Wege zur IT-Strategie – und dennoch erstaunlich ähnliche Lernerfahrungen.
